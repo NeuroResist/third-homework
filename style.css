@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+.container {
+    margin: 0 113px;
+}
+
+.header {
+    padding: 33px 27px 24px 0px;
+    text-align: right;
+    position: relative;
+}
+
+.header__logo {
+    float: left;
+}
+
+.header__menu {
+    display: inline-block;
+}
+
+.menu {
+
+
+}
+
+.menu__list {
+
+}
+
+.list__item {
+    display: inline-block;
+}
+
+.menu__link {
+    margin-right: 40px;
+    text-decoration: none;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #B08EAD;
+}
+
+.main__title {
+    background: url("./img/Rectangle.png"), url("./img/Rectangle-1.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, bottom;
+    background-size: 100% auto, 100% 100%;
+
+    padding: 72px 178px;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.title-text {
+    background: #B08EAD;
+    position: absolute;
+    padding: 124px 40px;
+    width: 425px;
+    height: 450px;
+    box-sizing: border-box;
+    top: 182px;
+    right: 113px;
+}
+
+.title-text__header {
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+
+.title-text__new {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.title-text__link {
+    text-decoration: none;
+    border-bottom: white solid 2px;
+    padding-bottom: 3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.example {
+
+    display: inline-block;
+    margin-bottom: 40px;
+    border-bottom: #5F4D5D solid 2px;
+}
+
+.example__img {
+    display: inline;
+    width: 49%;
+}
+
+.example__text {
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 100px 66px;
+    display: inline-block;
+    width: 50%;
+
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5F4D5D;
+}
+
+.example__header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.main__title-2{
+    margin-bottom: 75px;
+    position: relative;
+
+}
+.title-text-2 {
+    left: 673px;
+    top: 185px;
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+    background: #B08EAD;
+    padding: 124px 40px;
+    width: 425px;
+    height: 450px;
+    box-sizing: border-box;
+}
+.puf2{
+    padding-left: 182px;
+    padding-top: 75px;
+}
+
+.pillow-row{
+
+}
+.pillow{
+    display: inline-block;
+    width: 31%;
+    text-align: center;
+    margin: 13px;
+}
+.pillow__text{
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5F4D5D;
+    margin: 9px 0px 0px 0px;
+
+}
+.pillow__img{
+width: auto;
+}
+.pillow__price{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: #B0B0B0;
+    margin: 7px 0px 0px 0px;
+}
+
+.feedback{
+
+}
+.feedback__contacts{
+    padding: 97px 0 0 115px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.feedback__text1{
+    color: white;
+    margin: 20px 0 0 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.feedback__text{
+    color: white;
+    margin: 0;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+}
+.feedback__lets-talk{
+    display: inline-block;
+    padding-top: 68px;
+    padding-left: 144px;
+    width: 60%;
+    text-align: center;
+}
+.input{
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+.feedback__input-button{
+    height: 50px;
+    width: 210px;
+    margin: 6px 12px 15px 0;
+    background-color: #CEB3CB;
+    color: white;
+}
+.feedback__input-message{
+    height: 103px;
+    width: 600px;
+    margin: 10px 12px 15px 0;
+    background-color: #CEB3CB;
+}
+.feedback__input{
+    height: 50px;
+    width: 288px;
+    margin: 10px 12px 15px 0;
+    background-color: #CEB3CB;
+}
+::placeholder{
+    color: white;
+    padding-left: 16px;
+}
+
+
+.newsletter{
+    text-align: center;
+}
+
+.newsletter_input{
+    height: 60px;
+    width: 208px;
+    background-color: #FFFFFF;
+    border-radius: 3px 0px 0px 3px;
+    border-color: #B0B0B0;
+    padding: 0;
+}
+.newsletter_button{
+    background: #CEB3CB;
+    border-radius: 0px 3px 3px 0px;
+    height: 60px;
+    width: 179px;
+    padding: 0;
+}
+.newsletter_header{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 95px 0 0 0;
+}
+.newsletter_text{
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #5F4D5D;
+    margin: 0 0 13px 0;
+}
+
+
+.rectangle{
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background-color: #BA9FB7;
+    text-align: center;
+    display: inline-block;
+
+}
+.our-guarantees__block{
+    display: inline-block;
+    width: 30%;
+    padding: 46px 0 12px 0;
+}
+.our-guarantees{
+    text-align: center;
+
+}
+.our-guarantees__header{
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+    color: #FFFFFF;
+}
+.our-guarantees__text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+    color: #FFFFFF;
+}
+.our-guarantees__img{
+padding-top: 25px}
+
+
+.footer {
+    padding: 20px;
+    background: #C9ADC6;
+}
+
+.footer .menu__link {
+
+    color: #FFFFFF;
+}
