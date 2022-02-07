@@ -6,29 +6,24 @@
 
 .header {
     padding: 33px 27px 24px 0px;
-    text-align: right;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-
-.header__logo {
-    float: left;
+.header__logo{
+    align-self: center;
 }
-
 .header__menu {
     display: inline-block;
+    margin-left: auto;
 }
-
-.menu {
-
-
-}
-
-.menu__list {
+.list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
 
 }
-
-.list__item {
-    display: inline-block;
+.list__item{
 }
 
 .menu__link {
@@ -158,13 +153,11 @@
     box-sizing: border-box;
 }
 .puf2{
-    padding-left: 182px;
-    padding-top: 75px;
-}
-
-.pillow-row{
+    padding: 75px 0 75px 182px;
 
 }
+
+
 .pillow{
     display: inline-block;
     width: 31%;
@@ -195,7 +188,8 @@ width: auto;
 }
 
 .feedback{
-
+    display: flex;
+    justify-content: center;
 }
 .feedback__contacts{
     padding: 97px 0 0 115px;
@@ -227,8 +221,8 @@ width: auto;
     display: inline-block;
     padding-top: 68px;
     padding-left: 144px;
-    width: 60%;
-    text-align: center;
+
+    text-align: left;
 }
 .input{
     border: 1px solid #FFFFFF;
@@ -318,7 +312,8 @@ width: auto;
 }
 .our-guarantees{
     text-align: center;
-
+    display: flex;
+    justify-content: center;
 }
 .our-guarantees__header{
     font-family: Cormorant Garamond;
@@ -341,15 +336,89 @@ width: auto;
     color: #FFFFFF;
 }
 .our-guarantees__img{
-padding-top: 25px}
+padding-top: 25px
+}
 
+
+
+.pill-row__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.newsletter__form{
+    margin-bottom: 107px;
+    display: flex;
+    justify-content: center;
+}
+.menu__list{
+    display: flex;
+    justify-content: center;
+}
+
+.about-me__header{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+}
+.about-me__text{
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    color: #5F4D5D;
+}
+.about-me__button {
+    border: 1px solid #B99BB6;
+    box-sizing: border-box;
+    border-radius: 25px;
+    height: 45px;
+    width: 141px;
+background-color: #FFFFFF;
+}
+.about-me__me{
+ display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+.blocks__flex{
+    background-color: #CEB3CB;
+}
+.blocks__header{
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-left: 23px;
+}
+.blocks__text{
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 30px;
+    padding-left: 23px;
+    color: #FFFFFF;
+}
 
 .footer {
     padding: 20px;
     background: #C9ADC6;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .footer .menu__link {
-
     color: #FFFFFF;
 }
